@@ -1,0 +1,6 @@
+const header = document.getElementById("header")
+const title = document.getElementById("title")
+const excerpt = document.getElementById("excerpt")
+const p = document.getElementById("header")
+const header = document.getElementById("header")
+const header = document.getElementById("header")
