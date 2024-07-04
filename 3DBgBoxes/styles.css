@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.magic{
+    background-color: gold;
+    color: white;
+    font-family: inherit;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+    z-index: 100;
+}
+
+.magic:focus{
+    outline: none;
+}
+
+.magic:active{
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.boxes.big{
+    width: 600px;
+    height: 600px;
+}
+
+.box{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHE5YmJqeGdqa3BybjJkZ204N3A0cXF1Y3A1MXZuZWlzdnh5cXRrcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f9jxYYRVPHtKsCf9sy/giphy.gif");
+    background: yellow;
+    height: 125px;
+    width: 125px;
+}
+
